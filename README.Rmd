@@ -1,0 +1,28 @@
+# README
+
+This file will outline how the scripts and data are linked:
+
+- All the analyis is in one .R file: **run_analysis.R**. 
+
+- The dataset generated as part of step 5 of the assignment is named as **"newdata.csv"** (by running *run_analysis.R*). Both the newdata.csv dataset and the *run_analysis.R* is also in the github repository as this README file. 
+
+- Before running *run_analysis.R* please ensure you copy the files:
+
+  1.  **X_test.txt**
+
+  2.  **X_train.txt**
+  
+  3.  **y_test.txt**
+  
+  4.  **y_train.txt**
+  
+  5.  **subject_test.txt**
+  
+  6.  **subject_train.txt**
+
+in the same folder (current directory of R). My R was having issues reading them from subdirectoires so I copied them in one folder- the currect working directory.
+
+For a description of how the analysis is performed and variable names etc. please refer to the **CodeBook.md**. CodeBook.md is also is the same repository as this README.md.
+
+
+
