@@ -4,7 +4,7 @@ This file will outline how the scripts and data are linked:
 
 - All the analyis is in one .R file: **run_analysis.R**. 
 
-- The dataset generated as part of step 5 of the assignment is named as **"newdata.csv"** (by running *run_analysis.R*). Both the newdata.csv dataset and the *run_analysis.R* is also in the github repository as this README file. 
+- The dataset generated as part of step 5 of the assignment is named as **"newdata.txt"** (by running *run_analysis.R*). Both the newdata.csv dataset and the *run_analysis.R* is also in the github repository as this README file. 
 
 - Before running *run_analysis.R* please ensure you copy the files:
 

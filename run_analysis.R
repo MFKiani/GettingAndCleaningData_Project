@@ -201,3 +201,5 @@ newdata <- rename(newdata, AVGfBodyGyroMag_mean = X65)
 newdata <- rename(newdata, AVGfBodyGyroMag_sd = X66)
 newdata <- rename(newdata, AVGfBodyGyroJerkMag_mean =X67)
 newdata <- rename(newdata, AVGfBodyGyroJerkMag_sd = X68)
+
+write.table(newdata, "newdata.txt", row.name= FALSE)
